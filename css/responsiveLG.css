@@ -1,0 +1,47 @@
+@media only screen and (min-width:992px) and (max-width:1200px){
+    main.wrapper {
+        width: 100%;
+    }
+
+    section.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    section.menu>nav {
+        width: inherit;
+        height: inherit;
+        background-color: #812828;
+    }
+
+    section.menu>nav>ul {
+        width: 65%;
+        height: inherit;
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    section.menu>nav>ul>li {
+        width: 150px;
+        height: inherit;
+        display: inline-block;
+    }
+
+    section.menu>nav>ul>li>a {
+        display: block;
+        width: inherit;
+        height: inherit;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+
+    section.menu>nav>ul>li>a:hover {
+        background-color: antiquewhite;
+        color: #111111;
+    }
+}
