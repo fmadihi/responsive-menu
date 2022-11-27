@@ -1,4 +1,6 @@
-@media only screen and (min-width:768px) and (max-width:992px){
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+    /*make menu*/
     main.wrapper {
         width: 100%;
     }
@@ -45,4 +47,54 @@
         background-color: antiquewhite;
         color: #111111;
     }
+
+    /*make menu*/
+    /*make slider*/
+    section.slider {
+        width: 100%;
+        height: 608px;
+        background-image: url('../image/fall.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-color: black;
+        position: relative;
+        direction: ltr;
+    }
+
+    section.loading {
+        width: 100%;
+        height: 5px;
+        background-color: crimson;
+        position: absolute;
+        bottom: 0;
+    }
+
+    section.slogan {
+        width: 60%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        direction: rtl;
+        padding: 15px;
+        box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+        border-radius: 10px;
+    }
+
+    section.slogan>h1 {
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    section.slogan>p {
+        color: whitesmoke;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+    /*make slider*/
 }
