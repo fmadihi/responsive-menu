@@ -6,3 +6,40 @@ body{
     direction: rtl;
     box-sizing: border-box;
 }
+
+@keyframes sliderResult {
+    0% {
+        background-image: url('../image/fall.jpg');
+    }
+
+    33% {
+        background-image: url('../image/spring.jpg');
+    }
+
+    66% {
+        background-image: url('../image/summer.jpg');
+    }
+
+    100% {
+        background-image: url('../image/winter.jpeg');
+    }
+}
+
+.sliderResult {
+    animation: sliderResult 10s linear infinite alternate;
+}
+
+@keyframes loading {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.loading {
+    animation: loading 3.3s linear infinite;
+
+}
