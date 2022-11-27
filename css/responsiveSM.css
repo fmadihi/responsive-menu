@@ -1,4 +1,6 @@
-@media only screen and (min-width:560px) and (max-width:768px){
+@media only screen and (min-width:560px) and (max-width:768px) {
+
+    /*make menu*/
     main.wrapper {
         width: 100%;
     }
@@ -25,10 +27,13 @@
         height: inherit;
         display: block;
     }
-    section.menu>nav>ul>li:nth-of-type(1)>a,section.menu>nav>ul>li:nth-last-of-type(1)>a{
+
+    section.menu>nav>ul>li:nth-of-type(1)>a,
+    section.menu>nav>ul>li:nth-last-of-type(1)>a {
         background-color: chartreuse;
         color: #602881;
     }
+
     section.menu>nav>ul>li>a {
         display: block;
         width: inherit;
@@ -46,4 +51,54 @@
         background-color: antiquewhite;
         color: #111111;
     }
+
+    /*make menu*/
+    /*make slider*/
+    section.slider {
+        width: 100%;
+        height: 608px;
+        background-image: url('../image/fall.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        position: relative;
+        direction: ltr;
+    }
+
+    section.loading {
+        width: 100%;
+        height: 5px;
+        background-color: crimson;
+        position: absolute;
+        bottom: 0;
+    }
+
+    section.slogan {
+        width: 70%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 35%;
+        left: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        direction: rtl;
+        padding: 15px;
+        box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+        border-radius: 10px;
+    }
+
+    section.slogan>h1 {
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    section.slogan>p {
+        color: whitesmoke;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+    /*make slider*/
 }
